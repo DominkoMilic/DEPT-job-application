@@ -1,0 +1,34 @@
+.colors-display-container {
+  height: 80%;
+  width: 100%;
+  background-color: azure;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.colors-display-container h2 {
+  font-style: italic;
+}
+
+.random-colors-display-container {
+  width: 90%;
+  height: 80%;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.random-colors-display-container p {
+  font-size: large;
+  text-shadow: 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.random-colors-display-container > *:nth-last-child(1):nth-child(odd) {
+  grid-column: span 2;
+}

@@ -1,0 +1,39 @@
+.log-in-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  border-left: solid black 1px;
+}
+
+.log-in-form-container h2 {
+  margin-bottom: 0;
+  margin-top: 10%;
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+
+.log-in-button {
+  margin-top: 5%;
+  width: 70%;
+  height: 10%;
+  font-size: large;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+@media (max-width: 900px) {
+  .log-in-form-container {
+    border-left: none;
+    border-top: solid black 1px;
+    width: 90%;
+    height: 75%;
+  }
+
+  .log-in-form-container h2 {
+    margin-top: 5%;
+  }
+}

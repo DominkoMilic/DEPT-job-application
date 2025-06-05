@@ -1,0 +1,44 @@
+.single-color-generated {
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  max-width: 700px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: azure;
+  -webkit-text-stroke: 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.7s;
+}
+
+.single-color-generated:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.single-color-my-palette {
+  height: 82%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bolder;
+  color: azure;
+  -webkit-text-stroke: 1px black;
+}
+
+.remove-color-from-my-palette {
+  border-radius: 50%;
+  color: darkred;
+  font-weight: bolder;
+  background-color: azure;
+  border-color: darkred;
+}

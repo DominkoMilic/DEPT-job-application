@@ -1,0 +1,14 @@
+.my-palette-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-palette-container h2 {
+  height: 10%;
+  width: 80%;
+  text-align: center;
+}

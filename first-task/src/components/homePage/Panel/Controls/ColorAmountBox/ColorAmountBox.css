@@ -1,0 +1,35 @@
+.color-amount-picker-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-of-colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 32px;
+  color: azure;
+}
+
+.color-amount-picker-container button {
+  border-radius: 50%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+@media (max-width: 800px) {
+  .color-amount-picker-container button {
+    width: 10px;
+    height: 30px;
+    margin: 0 20%;
+  }
+}

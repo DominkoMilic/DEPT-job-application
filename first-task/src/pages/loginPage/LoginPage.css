@@ -1,0 +1,18 @@
+.log-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  border-radius: 15px;
+  border: solid black 2px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  .log-in-container {
+    flex-direction: column;
+    width: 95%;
+  }
+}
