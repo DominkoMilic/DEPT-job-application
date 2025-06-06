@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 1. Clone the repository
+
+git clone https://github.com/DominkoMilic/DEPT-job-application
+
+# 2. Navigate into the project directory
+
+cd DEPT-job-application
+cd first-task
+
+# 3. Install dependencies
+
+npm install
+
+# 4. Start the development server
+
+npm run dev

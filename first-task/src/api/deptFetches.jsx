@@ -1,7 +1,6 @@
-const backendURL = import.meta.env.VITE_BACKEND;
+const backendURL = "https://bootcamp2025.depster.me";
 
 const logIn = async (email, password) => {
-  console.log("backend url: ", backendURL);
   try {
     if (!email || !password) {
       alert("Please enter email and password");

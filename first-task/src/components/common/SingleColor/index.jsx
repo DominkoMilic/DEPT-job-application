@@ -10,7 +10,6 @@ function SingleColor({ color, setDidPaletteChange, isMyPalette }) {
 
   const hanldeColorBlockClick = () => {
     if (!isMyPalette) {
-      console.log("kliknuta");
       const allColorsRetrieved = localStorage.getItem("colors");
       if (!allColorsRetrieved) {
         localStorage.setItem("colors", JSON.stringify([color]));
